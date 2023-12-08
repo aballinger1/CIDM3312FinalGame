@@ -1,0 +1,148 @@
+/* Base styles */
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Title screen styles */
+.title-text {
+    font-size: 24px; 
+    color: white; 
+    text-align: center; 
+}
+
+.title-button {
+    font-size: 20px; 
+    color: white; 
+    background-color: #cca42a; 
+    border-color: #c4a426; 
+}
+
+/* Styles for scene backgrounds */
+.first-scene-background, .scene-background {
+    background-size: cover;
+    background-position: center;
+    color: black; 
+    padding: 20px; 
+}
+
+/* background images scene */
+.first-scene-background {
+  background-image: url('../images/Bedroom.jpg');
+}
+
+.second-scene-background, .scene-background {
+  background-size: cover;
+  background-position: center;
+  color: rgba(211, 252, 47, 0.718); 
+  padding: 20px; 
+}
+
+/* background images scene */
+.second-scene-background {
+  background-image: url('../images/Meetingroom.webp');
+}
+
+.third-scene-background, .scene-background {
+  background-size: cover;
+  background-position: center;
+  color: black; 
+  padding: 20px; 
+}
+
+/* background images scene */
+.third-scene-background {
+  background-image: url('../images/harpfacility.webp');
+}
+
+.fourth-scene-background, .scene-background {
+  background-size: cover;
+  background-position: center;
+  color: black; 
+  padding: 20px; 
+}
+
+/* background images scene */
+.fourth-scene-background {
+  background-image: url('../images/publicaddress.webp');
+}
+
+.fifth-scene-background, .scene-background {
+  background-size: cover;
+  background-position: center;
+  color: black; 
+  padding: 20px; 
+}
+
+/* background images scene */
+.fifth-scene-background {
+  background-image: url('../images/Alien.jpg');
+}
+
+.final-scene-background, .scene-background {
+  background-size: cover;
+  background-position: center;
+  color: black; 
+  padding: 20px; 
+}
+
+.final-scene-background {
+  background-image: url('../images/ufos-attacking-a-city-royalty-free-illustration-1654614762.jpg');
+}
+
+/* Styles for scene containers */
+.scene-container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+    padding: 20px; /* Padding inside the container */
+    margin: 20px 0; /* Margin around the container */
+    max-width: 800px; /* Maximum width */
+    margin-left: auto; /* Center the container */
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styles for scene titles and text */
+.scene-title {
+    font-size: 28px; /* Large size for scene title */
+    text-align: center;
+}
+
+.scene-text {
+    font-size: 18px; /* Readable size for scene text */
+}
+
+/* Styles for choice buttons */
+.choice-container {
+    text-align: center; /* Center the choice buttons */
+}
+
+.choice-button {
+    display: block; /* Each button on its own line */
+    margin: 10px 0; /* Space between buttons */
+    font-size: 16px;
+    color: black; /* Black text on buttons */
+    background-color: white; /* White background for buttons */
+    border: 1px solid black; /* Black border for buttons */
+    padding: 10px;
+    width: 100%; /* Full width buttons */
+    text-align: left; /* Align text to left */
+}

@@ -1,0 +1,45 @@
+﻿@page
+@{
+    ViewData["Title"] = "Another Nightmare";
+}
+
+<style>
+    .title-screen {
+        text-align: center;
+        color: white;
+        background: url('/images/whitehouseburning.webp') no-repeat center center; /* Path to your background image */
+        background-size: cover;
+        height: 100vh; /* Full viewport height */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .start-button, .instructions-link {
+        background-color: white;
+        color: black;
+        padding: 15px 30px;
+        border: none;
+        font-size: 1.2em;
+        cursor: pointer;
+        margin-top: 20px;
+        text-decoration: none; 
+        display: inline-block;
+    }
+    .start-button:hover, .instructions-link:hover {
+        background-color: #f8f8f8;
+    }
+    .instructions-link {
+        background-color: #f8f8f8;
+        color: #0b0707;
+    }
+    .instructions-link:hover {
+        color: black;
+    }
+</style>
+
+<div class="title-screen">
+    <h1 class="title-text">Another Nightmare</h1>
+    <a asp-page="/FirstScene" class="start-button">Start Game</a>
+    <a asp-page="/Instructions" class="instructions-link">How to Play</a>
+</div>
